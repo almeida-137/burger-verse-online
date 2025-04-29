@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-burger-dark text-white py-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Column 1 - About */}
           <div>
             <h3 className="text-xl font-display font-bold mb-6">
@@ -84,24 +84,6 @@ const Footer = () => {
                 <span className="text-white/70">contato@burgerverse.com.br</span>
               </li>
             </ul>
-          </div>
-
-          {/* Column 4 - Newsletter */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Newsletter</h4>
-            <p className="text-white/70 mb-4">
-              Inscreva-se para receber promoções e novidades!
-            </p>
-            <div className="flex flex-col space-y-3">
-              <Input 
-                type="email" 
-                placeholder="Seu e-mail" 
-                className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
-              />
-              <Button className="bg-burger hover:bg-burger-hover text-white w-full">
-                Inscrever-se
-              </Button>
-            </div>
           </div>
         </div>
 
