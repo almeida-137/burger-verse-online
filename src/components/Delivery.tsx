@@ -1,26 +1,15 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Truck, ShoppingCart, Utensils } from 'lucide-react';
 
-const DeliveryCard = ({ title, description, icon, buttonText, buttonLink, logoSrc }: any) => {
+const DeliveryCard = ({ title, description, icon, buttonText, buttonLink }: any) => {
   return (
     <Card className="bg-white border-none shadow-lg hover:shadow-xl transition-shadow">
       <CardContent className="p-6">
         <div className="flex items-center justify-center w-16 h-16 rounded-full bg-burger/10 text-burger mb-6 mx-auto">
           {icon}
         </div>
-        
-        {logoSrc && (
-          <div className="flex justify-center mb-5">
-            <img 
-              src={logoSrc} 
-              alt={title} 
-              className="h-8 object-contain" 
-            />
-          </div>
-        )}
         
         <h3 className="text-xl font-bold text-burger-dark text-center mb-4">{title}</h3>
         <p className="text-burger-text/80 text-center mb-6">{description}</p>
@@ -52,8 +41,7 @@ const Delivery = () => {
       description: "Encontre nossos produtos no iFood e aproveite as promoções exclusivas.",
       icon: <ShoppingCart size={32} />,
       buttonText: "Pedir no iFood",
-      buttonLink: "https://www.ifood.com.br",
-      logoSrc: "https://seeklogo.com/images/I/ifood-logo-F56AD28B29-seeklogo.com.png"
+      buttonLink: "https://www.ifood.com.br"
     },
     {
       title: "Retirada no Local",
