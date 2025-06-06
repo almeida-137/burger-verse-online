@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# 🍔 Burger Verse Online
 
-## Project info
+Sistema de pedidos online para hamburguerias, desenvolvido para proporcionar uma experiência fluida tanto para o cliente quanto para o estabelecimento.
 
-**URL**: https://lovable.dev/projects/e051ae08-374e-49a8-90fb-7cf75f72be8f
+## 🔍 Sobre o Projeto
 
-## How can I edit this code?
+**Burger Verse Online** é uma plataforma web moderna e eficiente que permite a hamburguerias:
 
-There are several ways of editing your application.
+- Exibir um cardápio interativo e responsivo.
+- Receber pedidos online de forma prática.
+- Organizar e gerenciar pedidos em tempo real.
+- Otimizar o atendimento e reduzir o tempo de espera.
 
-**Use Lovable**
+> Criado para hamburguerias independentes que querem vender online sem depender de apps com taxas abusivas.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e051ae08-374e-49a8-90fb-7cf75f72be8f) and start prompting.
+## 🧱 Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Next.js** – Framework React com App Router.
+- **TypeScript** – Código seguro e escalável.
+- **Tailwind CSS** – Estilização responsiva e moderna.
+- **Shadcn/ui** – Componentes acessíveis e reutilizáveis.
+- **Supabase (opcional)** – Autenticação e banco de dados (se aplicado).
+- **Vercel** – Deploy e hospedagem.
 
-**Use your preferred IDE**
+## ✨ Funcionalidades
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [x] Página inicial com vitrine de produtos.
+- [x] Menu interativo por categorias.
+- [ ] Carrinho de compras com resumo de pedido.
+- [ ] Formulário de finalização de pedido (checkout).
+- [ ] Interface responsiva (mobile-first).
+- [ ] Integração com sistema de pedidos no painel do restaurante.
+- [ ] Notificações em tempo real (em breve).
+- [ ] Histórico de pedidos para clientes e admin.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖥️ Preview do Projeto
 
-Follow these steps:
+🚀 Veja o app em produção:  
+[burger-verse-online.vercel.app](https://burger-verse-online.vercel.app)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📦 Como Rodar Localmente
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone o repositório
+git clone https://github.com/almeida-137/burger-verse-online.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Acesse o diretório
+cd burger-verse-online
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e051ae08-374e-49a8-90fb-7cf75f72be8f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
